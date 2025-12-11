@@ -1,0 +1,140 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/toriq/OneDrive/Dokumen/PSD/Finpro_Fix
+Elock_controller
+Z0 w1765438946
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 9
+Z4 dC:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language
+Z5 8C:\Users\toriq\OneDrive\Dokumen\PSD\SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language\lock_controller.vhd
+Z6 FC:\Users\toriq\OneDrive\Dokumen\PSD\SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language\lock_controller.vhd
+l0
+L5 1
+V[YJV2zSG>XEEI8`9;zB_01
+!s100 36PXdHbh;^^:_IHKcg[3@1
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1765438963
+!i10b 1
+Z9 !s108 1765438962.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\toriq\OneDrive\Dokumen\PSD\SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language\lock_controller.vhd|
+Z11 !s107 C:\Users\toriq\OneDrive\Dokumen\PSD\SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language\lock_controller.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R1
+R2
+R3
+Z14 DEx4 work 15 lock_controller 0 22 [YJV2zSG>XEEI8`9;zB_01
+!i122 9
+l53
+Z15 L16 130
+V[CjeSGYUI>4XOR2VhMh9K1
+!s100 TH3=_kADiiM;:zAV37idm2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esha3_256_core
+Z16 w1765438157
+R1
+R2
+R3
+!i122 7
+R4
+Z17 8C:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/SHA3_256_Core.vhd
+Z18 FC:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/SHA3_256_Core.vhd
+l0
+L5 1
+V_Z1oAY7WV9g9IK@g8Te@D0
+!s100 8ME=1dG<<o`iO1gYF:LIM3
+R7
+32
+Z19 !s110 1765438168
+!i10b 1
+Z20 !s108 1765438168.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/SHA3_256_Core.vhd|
+Z22 !s107 C:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/SHA3_256_Core.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 13 sha3_256_core 0 22 _Z1oAY7WV9g9IK@g8Te@D0
+!i122 7
+l57
+L18 158
+V18:n[OE[eEnGiz87404Y^3
+!s100 <kNBcfBn4cE<D<Sm38_6g0
+R7
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R12
+R13
+Etb_lock_system
+Z23 w1765101350
+R1
+R2
+R3
+!i122 8
+R4
+Z24 8C:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/tb_lock_system.vhd
+Z25 FC:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/tb_lock_system.vhd
+l0
+L5 1
+V5F[;Iz;`T>3Se;>gaCE=@0
+!s100 C:@Hm6lVAz1`keM:zoaei3
+R7
+32
+R19
+!i10b 1
+R20
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/tb_lock_system.vhd|
+Z27 !s107 C:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/tb_lock_system.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 14 tb_lock_system 0 22 5F[;Iz;`T>3Se;>gaCE=@0
+!i122 8
+l32
+L8 87
+VQTfjK1OhUE:6`YK5CVfh@2
+!s100 UiQ;1>L^?Ki2IjJRT24P=1
+R7
+32
+R19
+!i10b 1
+R20
+R26
+R27
+!i113 1
+R12
+R13

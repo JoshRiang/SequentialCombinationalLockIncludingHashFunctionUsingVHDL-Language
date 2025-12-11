@@ -1,0 +1,457 @@
+# Compile of lock_controller.vhd was successful.
+# Compile of SHA3_256_Core.vhd was successful.
+# Compile of tb_lock_system.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_lock_system
+# vsim -gui work.tb_lock_system 
+# Start time: 14:12:09 on Dec 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_lock_system(behavioral)
+# Loading work.lock_controller(behavioral)
+# Loading work.sha3_256_core(behavioral)
+add wave -position insertpoint sim:/tb_lock_system/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+# Compile of lock_controller.vhd failed with 49 errors.
+# Compile of SHA3_256_Core.vhd was successful.
+# Compile of tb_lock_system.vhd was successful.
+# 3 compiles, 1 failed with 49 errors.
+# Compile of lock_controller.vhd was successful.
+# Compile of SHA3_256_Core.vhd was successful.
+# Compile of tb_lock_system.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.tb_lock_system
+# End time: 14:29:40 on Dec 11,2025, Elapsed time: 0:17:31
+# Errors: 0, Warnings: 8
+# vsim -gui work.tb_lock_system 
+# Start time: 14:29:40 on Dec 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_lock_system(behavioral)
+# Loading work.lock_controller(behavioral)
+# Loading work.sha3_256_core(behavioral)
+add wave -position insertpoint sim:/tb_lock_system/*
+run -all
+add wave /tb_lock_system/uut/computed_hash
+restart -f
+run 10 us
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Compile of lock_controller.vhd was successful.
+vsim -gui work.tb_lock_system
+# End time: 14:42:51 on Dec 11,2025, Elapsed time: 0:13:11
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_lock_system 
+# Start time: 14:42:51 on Dec 11,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_lock_system(behavioral)
+# Loading work.lock_controller(behavioral)
+# Loading work.sha3_256_core(behavioral)
+add wave -position insertpoint sim:/tb_lock_system/*
+run -all
+# Break key hit
+# Break in Process line__59 at C:/Users/toriq/OneDrive/Dokumen/PSD/SequentialCombinationalLockIncludingHashFunctionUsingVHDL-Language/SHA3_256_Core.vhd line 59
+# End time: 14:45:57 on Dec 11,2025, Elapsed time: 0:03:06
+# Errors: 0, Warnings: 1

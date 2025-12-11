@@ -41,10 +41,10 @@ architecture Behavioral of lock_controller is
     signal hash_counter : integer range 0 to 100 := 0;
     
     constant SECRET_KEY_HASH : STD_LOGIC_VECTOR(255 downto 0) := 
-        x"3d017d25445569a9c315436fb28025317bb6e31513036ae56c2883d1968541a0";
+        x"929CB125102905D2092F7960C08A339BFD88D098D8CC74490B82061F8F710F2F";
     
     signal notify_counter : integer range 0 to 500 := 0;
-    constant NOTIFY_TIMEOUT : integer := 200;
+    constant NOTIFY_TIMEOUT : integer := 200; 
     signal open_counter : integer range 0 to 500 := 0;
     constant OPEN_TIMEOUT : integer := 200;
     
@@ -94,14 +94,9 @@ begin
                     end if;
                 
                 when VALIDATE =>
-                    lock_open <= '0';
-                    notification_led <= '0';
-                    hash_started <= '0';
                     current_state <= HASHING;
                 
                 when HASHING =>
-                    lock_open <= '0';
-                    notification_led <= '0';
                     if hash_started = '0' then
                         hash_start <= '1';
                         hash_started <= '1';
@@ -109,16 +104,15 @@ begin
                     else
                         hash_counter <= hash_counter + 1;
                     end if;
-                    if hash_done = '1' or hash_counter >= 50 then
+                    
+                    if hash_done = '1' or hash_counter >= 60 then
                         current_state <= COMPARE;
                         hash_started <= '0';
                         hash_counter <= 0;
                     end if;
                 
                 when COMPARE =>
-                    lock_open <= '0';
-                    notification_led <= '0';
-                    if stored_input = x"04D2" then
+                    if computed_hash = SECRET_KEY_HASH then
                         current_state <= OPEN_STATE;
                     else
                         current_state <= NOTIFY;
@@ -126,7 +120,6 @@ begin
                 
                 when OPEN_STATE =>
                     lock_open <= '1';
-                    notification_led <= '0';
                     if open_counter >= OPEN_TIMEOUT then
                         current_state <= IDLE;
                         open_counter <= 0;
@@ -135,7 +128,6 @@ begin
                     end if;
                 
                 when NOTIFY =>
-                    lock_open <= '0';
                     notification_led <= '1';
                     if notify_counter >= NOTIFY_TIMEOUT then
                         current_state <= IDLE;
